@@ -6,9 +6,11 @@
     "dev": "next dev --port 3000",
     "build": "next build",
     "start": "next start",
-    "brand": "node scripts/build-brand-assets.mjs"
+    "brand": "node scripts/build-brand-assets.mjs",
+    "seedance": "node --env-file=.env.local index.ts"
   },
   "dependencies": {
+    "@higgsfield/client": "^0.2.6",
     "@tanstack/react-virtual": "^3.14.10",
     "@vercel/blob": "^2.8.0",
     "next": "^16.0.0",
